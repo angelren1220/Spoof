@@ -44,6 +44,7 @@
 		BA1480C42B40670400DA0EDA /* SpoofUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpoofUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1480C82B40670400DA0EDA /* SpoofUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoofUITests.swift; sourceTree = "<group>"; };
 		BA1480CA2B40670400DA0EDA /* SpoofUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoofUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA1480D72B406A6900DA0EDA /* Gwendolen.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Gwendolen.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		BA1480A12B40670100DA0EDA = {
 			isa = PBXGroup;
 			children = (
+				BA1480D72B406A6900DA0EDA /* Gwendolen.gpx */,
 				BA1480AC2B40670100DA0EDA /* Spoof */,
 				BA1480BD2B40670400DA0EDA /* SpoofTests */,
 				BA1480C72B40670400DA0EDA /* SpoofUITests */,
