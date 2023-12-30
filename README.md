@@ -10,7 +10,7 @@ Spoof is a tool designed to help you simulate different locations on your iPhone
 ## Setup and Usage Instructions
 
 1. **Connect Your iPhone to Your Mac:**
-   - Use a USB cable to connect your iPhone to your Mac.
+   - Use a cable to connect your iPhone to your Mac.
 
 2. **Sign in with Your Apple ID in Xcode:**
    - Open Xcode on your Mac.
