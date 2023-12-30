@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA1480AE2B40670100DA0EDA /* SpoofApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1480AD2B40670100DA0EDA /* SpoofApp.swift */; };
+		BA1480B02B40670100DA0EDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1480AF2B40670100DA0EDA /* ContentView.swift */; };
+		BA1480B22B40670400DA0EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1480B12B40670400DA0EDA /* Assets.xcassets */; };
+		BA1480B52B40670400DA0EDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1480B42B40670400DA0EDA /* Preview Assets.xcassets */; };
+		BA1480BF2B40670400DA0EDA /* SpoofTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1480BE2B40670400DA0EDA /* SpoofTests.swift */; };
+		BA1480C92B40670400DA0EDA /* SpoofUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1480C82B40670400DA0EDA /* SpoofUITests.swift */; };
+		BA1480CB2B40670400DA0EDA /* SpoofUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1480CA2B40670400DA0EDA /* SpoofUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA1480BB2B40670400DA0EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA1480A22B40670100DA0EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1480A92B40670100DA0EDA;
+			remoteInfo = Spoof;
+		};
+		BA1480C52B40670400DA0EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA1480A22B40670100DA0EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1480A92B40670100DA0EDA;
+			remoteInfo = Spoof;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA1480AA2B40670100DA0EDA /* Spoof.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spoof.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1480AD2B40670100DA0EDA /* SpoofApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoofApp.swift; sourceTree = "<group>"; };
+		BA1480AF2B40670100DA0EDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA1480B12B40670400DA0EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA1480B42B40670400DA0EDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA1480BA2B40670400DA0EDA /* SpoofTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpoofTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1480BE2B40670400DA0EDA /* SpoofTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoofTests.swift; sourceTree = "<group>"; };
+		BA1480C42B40670400DA0EDA /* SpoofUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpoofUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1480C82B40670400DA0EDA /* SpoofUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoofUITests.swift; sourceTree = "<group>"; };
+		BA1480CA2B40670400DA0EDA /* SpoofUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoofUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA1480A72B40670100DA0EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1480B72B40670400DA0EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1480C12B40670400DA0EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA1480A12B40670100DA0EDA = {
+			isa = PBXGroup;
+			children = (
+				BA1480AC2B40670100DA0EDA /* Spoof */,
+				BA1480BD2B40670400DA0EDA /* SpoofTests */,
+				BA1480C72B40670400DA0EDA /* SpoofUITests */,
+				BA1480AB2B40670100DA0EDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA1480AB2B40670100DA0EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA1480AA2B40670100DA0EDA /* Spoof.app */,
+				BA1480BA2B40670400DA0EDA /* SpoofTests.xctest */,
+				BA1480C42B40670400DA0EDA /* SpoofUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA1480AC2B40670100DA0EDA /* Spoof */ = {
+			isa = PBXGroup;
+			children = (
+				BA1480AD2B40670100DA0EDA /* SpoofApp.swift */,
+				BA1480AF2B40670100DA0EDA /* ContentView.swift */,
+				BA1480B12B40670400DA0EDA /* Assets.xcassets */,
+				BA1480B32B40670400DA0EDA /* Preview Content */,
+			);
+			path = Spoof;
+			sourceTree = "<group>";
+		};
+		BA1480B32B40670400DA0EDA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA1480B42B40670400DA0EDA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA1480BD2B40670400DA0EDA /* SpoofTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA1480BE2B40670400DA0EDA /* SpoofTests.swift */,
+			);
+			path = SpoofTests;
+			sourceTree = "<group>";
+		};
+		BA1480C72B40670400DA0EDA /* SpoofUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA1480C82B40670400DA0EDA /* SpoofUITests.swift */,
+				BA1480CA2B40670400DA0EDA /* SpoofUITestsLaunchTests.swift */,
+			);
+			path = SpoofUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA1480A92B40670100DA0EDA /* Spoof */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1480CE2B40670400DA0EDA /* Build configuration list for PBXNativeTarget "Spoof" */;
+			buildPhases = (
+				BA1480A62B40670100DA0EDA /* Sources */,
+				BA1480A72B40670100DA0EDA /* Frameworks */,
+				BA1480A82B40670100DA0EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spoof;
+			productName = Spoof;
+			productReference = BA1480AA2B40670100DA0EDA /* Spoof.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA1480B92B40670400DA0EDA /* SpoofTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1480D12B40670400DA0EDA /* Build configuration list for PBXNativeTarget "SpoofTests" */;
+			buildPhases = (
+				BA1480B62B40670400DA0EDA /* Sources */,
+				BA1480B72B40670400DA0EDA /* Frameworks */,
+				BA1480B82B40670400DA0EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA1480BC2B40670400DA0EDA /* PBXTargetDependency */,
+			);
+			name = SpoofTests;
+			productName = SpoofTests;
+			productReference = BA1480BA2B40670400DA0EDA /* SpoofTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA1480C32B40670400DA0EDA /* SpoofUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA1480D42B40670400DA0EDA /* Build configuration list for PBXNativeTarget "SpoofUITests" */;
+			buildPhases = (
+				BA1480C02B40670400DA0EDA /* Sources */,
+				BA1480C12B40670400DA0EDA /* Frameworks */,
+				BA1480C22B40670400DA0EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA1480C62B40670400DA0EDA /* PBXTargetDependency */,
+			);
+			name = SpoofUITests;
+			productName = SpoofUITests;
+			productReference = BA1480C42B40670400DA0EDA /* SpoofUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA1480A22B40670100DA0EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BA1480A92B40670100DA0EDA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BA1480B92B40670400DA0EDA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA1480A92B40670100DA0EDA;
+					};
+					BA1480C32B40670400DA0EDA = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA1480A92B40670100DA0EDA;
+					};
+				};
+			};
+			buildConfigurationList = BA1480A52B40670100DA0EDA /* Build configuration list for PBXProject "Spoof" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA1480A12B40670100DA0EDA;
+			productRefGroup = BA1480AB2B40670100DA0EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA1480A92B40670100DA0EDA /* Spoof */,
+				BA1480B92B40670400DA0EDA /* SpoofTests */,
+				BA1480C32B40670400DA0EDA /* SpoofUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA1480A82B40670100DA0EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1480B52B40670400DA0EDA /* Preview Assets.xcassets in Resources */,
+				BA1480B22B40670400DA0EDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1480B82B40670400DA0EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1480C22B40670400DA0EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA1480A62B40670100DA0EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1480B02B40670100DA0EDA /* ContentView.swift in Sources */,
+				BA1480AE2B40670100DA0EDA /* SpoofApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1480B62B40670400DA0EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1480BF2B40670400DA0EDA /* SpoofTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1480C02B40670400DA0EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA1480CB2B40670400DA0EDA /* SpoofUITestsLaunchTests.swift in Sources */,
+				BA1480C92B40670400DA0EDA /* SpoofUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA1480BC2B40670400DA0EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA1480A92B40670100DA0EDA /* Spoof */;
+			targetProxy = BA1480BB2B40670400DA0EDA /* PBXContainerItemProxy */;
+		};
+		BA1480C62B40670400DA0EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA1480A92B40670100DA0EDA /* Spoof */;
+			targetProxy = BA1480C52B40670400DA0EDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA1480CC2B40670400DA0EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA1480CD2B40670400DA0EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA1480CF2B40670400DA0EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spoof/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GL82RU6NU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiro.Spoof;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA1480D02B40670400DA0EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spoof/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GL82RU6NU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiro.Spoof;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA1480D22B40670400DA0EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GL82RU6NU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiro.SpoofTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spoof.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spoof";
+			};
+			name = Debug;
+		};
+		BA1480D32B40670400DA0EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GL82RU6NU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiro.SpoofTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spoof.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spoof";
+			};
+			name = Release;
+		};
+		BA1480D52B40670400DA0EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GL82RU6NU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiro.SpoofUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spoof;
+			};
+			name = Debug;
+		};
+		BA1480D62B40670400DA0EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5GL82RU6NU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiro.SpoofUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spoof;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA1480A52B40670100DA0EDA /* Build configuration list for PBXProject "Spoof" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1480CC2B40670400DA0EDA /* Debug */,
+				BA1480CD2B40670400DA0EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1480CE2B40670400DA0EDA /* Build configuration list for PBXNativeTarget "Spoof" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1480CF2B40670400DA0EDA /* Debug */,
+				BA1480D02B40670400DA0EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1480D12B40670400DA0EDA /* Build configuration list for PBXNativeTarget "SpoofTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1480D22B40670400DA0EDA /* Debug */,
+				BA1480D32B40670400DA0EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA1480D42B40670400DA0EDA /* Build configuration list for PBXNativeTarget "SpoofUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1480D52B40670400DA0EDA /* Debug */,
+				BA1480D62B40670400DA0EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA1480A22B40670100DA0EDA /* Project object */;
+}
