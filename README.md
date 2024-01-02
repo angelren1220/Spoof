@@ -10,7 +10,7 @@ Spoof is a tool designed to help you simulate different locations on your iPhone
 ## Setup and Usage Instructions
 
 1. **Connect Your iPhone to Your Mac:**
-   - Use a USB cable to connect your iPhone to your Mac.
+   - Use a cable to connect your iPhone to your Mac.
 
 2. **Sign in with Your Apple ID in Xcode:**
    - Open Xcode on your Mac.
@@ -22,6 +22,8 @@ Spoof is a tool designed to help you simulate different locations on your iPhone
    - Edit the file to include the desired latitude and longitude coordinates.
 
 4. **Build the Project:**
+   - Trust your app on your phone VPN setting
+   - Turn on the developer mode on your phone
    - Open your project in Xcode.
    - Select your iPhone as the target device.
    - Click on the 'Build' button to compile the project.
