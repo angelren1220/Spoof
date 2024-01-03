@@ -45,6 +45,12 @@
 		BA1480C82B40670400DA0EDA /* SpoofUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoofUITests.swift; sourceTree = "<group>"; };
 		BA1480CA2B40670400DA0EDA /* SpoofUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoofUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BA1480D72B406A6900DA0EDA /* Gwendolen.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Gwendolen.gpx; sourceTree = "<group>"; };
+		BA9697F52B44CA71002FE777 /* YongeFinch.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = YongeFinch.gpx; sourceTree = "<group>"; };
+		BA9697F62B44CC23002FE777 /* NorthYorkCenter.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = NorthYorkCenter.gpx; sourceTree = "<group>"; };
+		BA9697F72B44CF7E002FE777 /* SheppardBeecroft.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SheppardBeecroft.gpx; sourceTree = "<group>"; };
+		BA9697F82B44D3AA002FE777 /* YongeAvondale.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = YongeAvondale.gpx; sourceTree = "<group>"; };
+		BA9697F92B44D4EB002FE777 /* AbbotsfordPark.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AbbotsfordPark.gpx; sourceTree = "<group>"; };
+		BA9697FA2B44DADA002FE777 /* AvondalePark.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AvondalePark.gpx; sourceTree = "<group>"; };
 		BAD5C70D2B443CE700019F6E /* SheppardYonge.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SheppardYonge.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +83,13 @@
 			isa = PBXGroup;
 			children = (
 				BA1480D72B406A6900DA0EDA /* Gwendolen.gpx */,
+				BA9697F82B44D3AA002FE777 /* YongeAvondale.gpx */,
+				BA9697FA2B44DADA002FE777 /* AvondalePark.gpx */,
+				BA9697F72B44CF7E002FE777 /* SheppardBeecroft.gpx */,
 				BAD5C70D2B443CE700019F6E /* SheppardYonge.gpx */,
+				BA9697F92B44D4EB002FE777 /* AbbotsfordPark.gpx */,
+				BA9697F62B44CC23002FE777 /* NorthYorkCenter.gpx */,
+				BA9697F52B44CA71002FE777 /* YongeFinch.gpx */,
 				BA1480AC2B40670100DA0EDA /* Spoof */,
 				BA1480BD2B40670400DA0EDA /* SpoofTests */,
 				BA1480C72B40670400DA0EDA /* SpoofUITests */,
