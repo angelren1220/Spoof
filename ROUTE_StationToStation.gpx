@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    
+    <!--
+     Provide one or more waypoints containing a latitude/longitude pair. If you provide one
+     waypoint, Xcode will simulate that specific location. If you provide multiple waypoints,
+     Xcode will simulate a route visiting each waypoint.
+     -->
+    <wpt lat="43.7617398" lon="-79.4107525">
+        <name>Sheppard Yonge Station</name>
+        <time>2024-01-16T04:50:41Z</time>
+
+    </wpt>
+    <wpt lat="43.76250555" lon="-79.4109531">
+        <name>1</name>
+        <time>2024-01-16T04:51:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7632713" lon="-79.4111538">
+        <name>Green Field</name>
+        <time>2024-01-16T04:52:41Z</time>
+
+    </wpt>
+    <wpt lat="43.76485595" lon="-79.4117648">
+        <name>2</name>
+        <time>2024-01-16T04:53:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7664406" lon="-79.4123759">
+        <name>Elmwood</name>
+        <time>2024-01-16T04:54:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7673707" lon="-79.4125970">
+        <name>3</name>
+        <time>2024-01-16T04:55:41ZZ</time>
+
+    </wpt>
+    <wpt lat="43.7683008" lon="-79.4128181">
+        <name>Starbucks</name>
+        <time>2024-01-16T04:56:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7673707" lon="-79.4125970">
+        <name>3</name>
+        <time>2024-01-16T04:57:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7664406" lon="-79.4123759">
+        <name>Elmwood</name>
+        <time>2024-01-16T04:58:41Z</time>
+
+    </wpt>
+    <wpt lat="43.76485595" lon="-79.4117648">
+        <name>2</name>
+        <time>2024-01-16T04:59:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7632713" lon="-79.4111538">
+        <name>Green Field</name>
+        <time>2024-01-16T05:00:41Z</time>
+
+    </wpt>
+    <wpt lat="43.76250555" lon="-79.4109531">
+        <name>1</name>
+        <time>2024-01-16T05:01:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7617398" lon="-79.4107525">
+        <name>Sheppard Yonge Station</name>
+        <time>2024-01-16T05:02:41Z</time>
+    </wpt>
+    
+</gpx>
