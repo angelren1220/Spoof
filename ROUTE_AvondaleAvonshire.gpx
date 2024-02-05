@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    
+    <!--
+     Provide one or more waypoints containing a latitude/longitude pair. If you provide one
+     waypoint, Xcode will simulate that specific location. If you provide multiple waypoints,
+     Xcode will simulate a route visiting each waypoint.
+     -->
+    <wpt lat="43.7573438" lon="-79.4081309">
+        <name>AvondalePark</name>
+        <time>2024-01-16T04:50:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7572259" lon="-79.4069348">
+        <name>Avondale1</name>
+        <time>2024-01-16T04:51:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7568813" lon="-79.4067614">
+        <name>Avondale2</name>
+        <time>2024-01-16T04:52:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7565367" lon="-79.4065881">
+        <name>Skylark</name>
+        <time>2024-01-16T04:53:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7567672" lon="-79.4053954">
+        <name>Avonshire 1</name>
+        <time>2024-01-16T04:54:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7573084" lon="-79.4045023">
+        <name>Avonshire 2</name>
+        <time>2024-01-16T04:55:41ZZ</time>
+
+    </wpt>
+    <wpt lat="43.7579494" lon="-79.4038361">
+        <name>Avonshire Park</name>
+        <time>2024-01-16T04:56:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7573084" lon="-79.4045023">
+        <name>Avonshire 2</name>
+        <time>2024-01-16T04:57:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7567672" lon="-79.4053954">
+        <name>Avonshire 1</name>
+        <time>2024-01-16T04:58:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7565367" lon="-79.4065881">
+        <name>Skylark</name>
+        <time>2024-01-16T04:59:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7568813" lon="-79.4067614">
+        <name>Avondale2</name>
+        <time>2024-01-16T05:00:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7572259" lon="-79.4069348">
+        <name>Avondale1</name>
+        <time>2024-01-16T05:01:41Z</time>
+
+    </wpt>
+    <wpt lat="43.7576302" lon="-79.4076636">
+        <name>AvondalePark</name>
+        <time>2024-01-16T05:02:41Z</time>
+    </wpt>
+    
+</gpx>

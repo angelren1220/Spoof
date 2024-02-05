@@ -55,6 +55,7 @@
 		BA4BBE602B559BFE00648644 /* SheppardYongeSouth.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SheppardYongeSouth.gpx; sourceTree = "<group>"; };
 		BA4BBE612B563A3D00648644 /* Gradview.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Gradview.gpx; sourceTree = "<group>"; };
 		BA4BBE622B56424B00648644 /* test.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = test.gpx; sourceTree = "<group>"; };
+		BA69391E2B5F9D4400F7D2A8 /* ROUTE_AvondaleAvonshire.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ROUTE_AvondaleAvonshire.gpx; sourceTree = "<group>"; };
 		BA6F23CC2B4E758900E8AB1B /* DouglasCenter.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DouglasCenter.gpx; sourceTree = "<group>"; };
 		BA6F23CD2B4E776F00E8AB1B /* WillowdaleTennis.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WillowdaleTennis.gpx; sourceTree = "<group>"; };
 		BA6F23CE2B4E7AD000E8AB1B /* BeecrofTowers.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BeecrofTowers.gpx; sourceTree = "<group>"; };
@@ -70,14 +71,21 @@
 		BA9697F82B44D3AA002FE777 /* YongeAvondale.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = YongeAvondale.gpx; sourceTree = "<group>"; };
 		BA9697F92B44D4EB002FE777 /* AbbotsfordPark.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AbbotsfordPark.gpx; sourceTree = "<group>"; };
 		BA9697FA2B44DADA002FE777 /* AvondalePark.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AvondalePark.gpx; sourceTree = "<group>"; };
+		BA96ADB52B58F6A60084B61B /* SheppardStation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SheppardStation.gpx; sourceTree = "<group>"; };
+		BA96ADB62B5D05DE0084B61B /* ForestLawn.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ForestLawn.gpx; sourceTree = "<group>"; };
 		BAB3A8572B4645EA0095EE44 /* Willowdale.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Willowdale.gpx; sourceTree = "<group>"; };
 		BAB3D3222B48D4A1003D6EBC /* WillowdalePark.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WillowdalePark.gpx; sourceTree = "<group>"; };
 		BAB653012B5063B000D1A5F6 /* TwistedMetal.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TwistedMetal.gpx; sourceTree = "<group>"; };
 		BAB653022B5067C600D1A5F6 /* GibsonPark.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GibsonPark.gpx; sourceTree = "<group>"; };
+		BAC90E152B6ED6AD001EE343 /* Yorkdale.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Yorkdale.gpx; sourceTree = "<group>"; };
+		BAC90E162B6ED7A9001EE343 /* Yorkdale_Sewing.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Yorkdale_Sewing.gpx; sourceTree = "<group>"; };
+		BAC90E172B706B72001EE343 /* Northtown Fountain.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Northtown Fountain.gpx"; sourceTree = "<group>"; };
 		BAD5C70D2B443CE700019F6E /* SheppardYonge.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SheppardYonge.gpx; sourceTree = "<group>"; };
 		BAD7AFF42B467444004F959D /* DentistrtyForChildren.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DentistrtyForChildren.gpx; sourceTree = "<group>"; };
 		BAD7AFF52B46752E004F959D /* ConsulateGeneral.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ConsulateGeneral.gpx; sourceTree = "<group>"; };
 		BAE44C5E2B48BF2E00AF4F85 /* ROUTE_StationToStation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ROUTE_StationToStation.gpx; sourceTree = "<group>"; };
+		BAFB2A432B60E37E001757B6 /* SavvySign.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SavvySign.gpx; sourceTree = "<group>"; };
+		BAFB2A442B6464E3001757B6 /* SGC.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SGC.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,12 +116,18 @@
 		BA1480A12B40670100DA0EDA = {
 			isa = PBXGroup;
 			children = (
+				BAC90E172B706B72001EE343 /* Northtown Fountain.gpx */,
+				BAC90E152B6ED6AD001EE343 /* Yorkdale.gpx */,
+				BAC90E162B6ED7A9001EE343 /* Yorkdale_Sewing.gpx */,
+				BAFB2A442B6464E3001757B6 /* SGC.gpx */,
 				BA74A9A22B4D148F00EA7CB4 /* Avonshire1.gpx */,
 				BA74A9A32B4D14D400EA7CB4 /* Avonshire2.gpx */,
 				BA74A9A42B4D151500EA7CB4 /* Avondale1.gpx */,
 				BA74A9A52B4D154500EA7CB4 /* AvondaleFinal.gpx */,
 				BA1480D72B406A6900DA0EDA /* Gwendolen.gpx */,
 				BAE44C5E2B48BF2E00AF4F85 /* ROUTE_StationToStation.gpx */,
+				BA96ADB52B58F6A60084B61B /* SheppardStation.gpx */,
+				BA96ADB62B5D05DE0084B61B /* ForestLawn.gpx */,
 				BA4BBE622B56424B00648644 /* test.gpx */,
 				BAB3A8572B4645EA0095EE44 /* Willowdale.gpx */,
 				BA9697F82B44D3AA002FE777 /* YongeAvondale.gpx */,
@@ -121,6 +135,8 @@
 				BA6F23CD2B4E776F00E8AB1B /* WillowdaleTennis.gpx */,
 				BA6F23CE2B4E7AD000E8AB1B /* BeecrofTowers.gpx */,
 				BAB653012B5063B000D1A5F6 /* TwistedMetal.gpx */,
+				BA69391E2B5F9D4400F7D2A8 /* ROUTE_AvondaleAvonshire.gpx */,
+				BAFB2A432B60E37E001757B6 /* SavvySign.gpx */,
 				BAB653022B5067C600D1A5F6 /* GibsonPark.gpx */,
 				BA4BBE5F2B55996600648644 /* FranklinPark.gpx */,
 				BA4BBE612B563A3D00648644 /* Gradview.gpx */,
