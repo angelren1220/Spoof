@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    
+    <!--
+     Provide one or more waypoints containing a latitude/longitude pair. If you provide one
+     waypoint, Xcode will simulate that specific location. If you provide multiple waypoints,
+     Xcode will simulate a route visiting each waypoint.
+     -->
+    <wpt lat="34.14927" lon="-118.14893">
+        <name>LA GO ROUTE</name>
+        <time>2024-01-16T04:51:41Z</time>
+
+    </wpt>
+    <wpt lat="34.14761" lon="-118.14890">
+        <name>Green Field</name>
+        <time>2024-01-16T04:52:11Z</time>
+
+    </wpt>
+    <wpt lat="34.14765" lon="-118.15053">
+        <name>2</name>
+        <time>2024-01-16T04:53:41Z</time>
+
+    </wpt>
+    <wpt lat="34.14651" lon="-118.15049">
+        <name>Elmwood</name>
+        <time>2024-01-16T04:54:41Z</time>
+
+    </wpt>
+    <wpt lat="34.14448" lon="-118.15054">
+        <name>3</name>
+        <time>2024-01-16T04:55:41ZZ</time>
+
+    </wpt>
+    <wpt lat="34.14448" lon="-118.14885">
+        <name>Starbucks</name>
+        <time>2024-01-16T04:56:41Z</time>
+
+    </wpt>
+    <wpt lat="34.14351" lon="-118.14892">
+        <name>4</name>
+        <time>2024-01-16T04:57:41Z</time>
+
+    </wpt>
+    <wpt lat="34.14338" lon="-118.14974">
+        <name>5</name>
+        <time>2024-01-16T04:58:11Z</time>
+        
+    </wpt>
+    <wpt lat="34.14351" lon="-118.14892">
+        <name>6</name>
+        <time>2024-01-16T04:58:41Z</time>
+
+    </wpt>
+    <wpt lat="34.14448" lon="-118.14885">
+        <name>7</name>
+        <time>2024-01-16T04:59:41Z</time>
+
+    </wpt>
+    <wpt lat="34.14448" lon="-118.15054">
+        <name>8</name>
+        <time>2024-01-16T05:00:41Z</time>
+        
+    </wpt>
+    <wpt lat="34.14651" lon="-118.15049">
+        <name>9</name>
+        <time>2024-01-16T05:01:41Z</time>
+        
+    </wpt>
+    <wpt lat="34.14765" lon="-118.15053">
+        <name>10</name>
+        <time>2024-01-16T05:02:41Z</time>
+        
+    </wpt>
+    <wpt lat="34.14761" lon="-118.14890">
+        <name>11</name>
+        <time>2024-01-16T05:04:11Z</time>
+        
+    </wpt>
+    <wpt lat="34.14847" lon="-118.14893">
+        <name>12</name>
+        <time>2024-01-16T05:04:41Z</time>
+    </wpt>
+</gpx>
+
