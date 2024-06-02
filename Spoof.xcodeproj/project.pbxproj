@@ -76,6 +76,7 @@
 		BA6137492B93AFB60058EC3E /* Ind-Route_DT.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Ind-Route_DT.gpx"; sourceTree = "<group>"; };
 		BA61374A2B93BC080058EC3E /* Ind-Route_airport.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Ind-Route_airport.gpx"; sourceTree = "<group>"; };
 		BA61374B2B9425040058EC3E /* Ind-Route_airport2.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Ind-Route_airport2.gpx"; sourceTree = "<group>"; };
+		BA6281292C085E78005BDFEB /* Route_Sendai_1.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Route_Sendai_1.gpx; sourceTree = "<group>"; };
 		BA69391E2B5F9D4400F7D2A8 /* ROUTE_AvondaleAvonshire.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ROUTE_AvondaleAvonshire.gpx; sourceTree = "<group>"; };
 		BA6F23CC2B4E758900E8AB1B /* DouglasCenter.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DouglasCenter.gpx; sourceTree = "<group>"; };
 		BA6F23CD2B4E776F00E8AB1B /* WillowdaleTennis.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WillowdaleTennis.gpx; sourceTree = "<group>"; };
@@ -157,6 +158,7 @@
 				BA5997242BB8B7E50043D4F1 /* SYdney_Route2.gpx */,
 				BA5997252BB8B8140043D4F1 /* SYdney_Route1.gpx */,
 				BA59971E2BB8B5C20043D4F1 /* Tokyo1.gpx */,
+				BA6281292C085E78005BDFEB /* Route_Sendai_1.gpx */,
 				BA59971F2BB8B6090043D4F1 /* Tokyo2.gpx */,
 				BAC90E172B706B72001EE343 /* Northtown Fountain.gpx */,
 				BAC90E182B70C0E4001EE343 /* YongeDundas.gpx */,

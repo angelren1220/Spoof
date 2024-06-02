@@ -39,3 +39,19 @@ Spoof is a tool designed to help you simulate different locations on your iPhone
 
 ## Support
 For any issues or queries, please file an issue in the repository or contact the maintainers.
+
+## Temporary Solution for Lost Connection to Debugger in Xcode
+
+After updating Xcode, you may experience issues with the debugger losing connection to the target process. This can interrupt your workflow and make it difficult to debug your application effectively.
+
+Temporary Solution
+To mitigate this issue, you can create a configuration file in your home directory that increases the timeout setting for the debugger. Here is the single command to do this:
+
+Open Terminal:
+
+Copy and paste the following command into your Terminal and press Enter:
+shell
+
+```cd ~ && echo "settings set plugin.process.gdb-remote.packet-timeout 300" >> .lldbinit```
+
+This temporary solution can help maintain a stable debugging session in Xcode until a more permanent fix is provided in future updates
